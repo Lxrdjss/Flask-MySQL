@@ -1,0 +1,35 @@
+=== Rapport d'évaluation du modèle de sentiment ===
+
+--- Classe POSITIVE ---
+Précision : 0.730
+Rappel    : 0.715
+F1-score  : 0.722
+Matrice de confusion :
+[[425 162]
+ [175 438]]
+
+              precision    recall  f1-score   support
+
+           0       0.71      0.72      0.72       587
+           1       0.73      0.71      0.72       613
+
+    accuracy                           0.72      1200
+   macro avg       0.72      0.72      0.72      1200
+weighted avg       0.72      0.72      0.72      1200
+
+--- Classe NEGATIVE ---
+Précision : 0.708
+Rappel    : 0.724
+F1-score  : 0.716
+Matrice de confusion :
+[[438 175]
+ [162 425]]
+
+              precision    recall  f1-score   support
+
+           0       0.73      0.71      0.72       613
+           1       0.71      0.72      0.72       587
+
+    accuracy                           0.72      1200
+   macro avg       0.72      0.72      0.72      1200
+weighted avg       0.72      0.72      0.72      1200
